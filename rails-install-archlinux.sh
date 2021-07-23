@@ -22,8 +22,8 @@ echo "Installs Ruby"
 rvm install 2.3.1
 rvm use 2.3.1 --default
 
-gem install bundler --no-rdoc --no-ri
-gem install rails --no-rdoc --no-ri
+gem install bundler
+gem install rails
 
 # Make sure RVM, Ruby and Rails are on the user's path
 echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc
