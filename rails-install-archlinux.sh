@@ -19,8 +19,8 @@ curl -sSL https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
 
 echo "Installs Ruby"
-rvm install 2.3.1
-rvm use 2.3.1 --default
+rvm install 2.3.8
+rvm use 2.3.8 --default
 
 gem install bundler
 gem install rails
